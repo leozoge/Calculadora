@@ -6,64 +6,51 @@ namespace Calculadora
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Digite o primeiro algarismo:");
-            string primeiroAlgarismoEmString = Console.ReadLine();
-            decimal primeiroAlgarismoEmDecimal = Convert.ToDecimal(primeiroAlgarismoEmString);
+            Console.WriteLine("Enter the first digit: (Digite o primeiro algarismo)");
+            string firstDigitInString = Console.ReadLine();
+            decimal firstDigitInDecimal = Convert.ToDecimal(firstDigitInString);
 
-            Console.WriteLine("Digite o segundo algarismo:");
-            string segundoAlgarismoEmString = Console.ReadLine();
-            decimal segundoAlgarismoEmDecimal = Convert.ToDecimal(segundoAlgarismoEmString);
+            Console.WriteLine("Enter the first digit: (Digite o segundo algarismo)");
+            string secondDigitInString = Console.ReadLine();
+            decimal secondDigitInDecimal = Convert.ToDecimal(secondDigitInString);
 
-            Console.WriteLine("Digite a operação:");
-            string operacao = Console.ReadLine();
+            Console.WriteLine("Enter the operation: (Digite a operação)");
+            string operation = Console.ReadLine();
 
-            decimal resultado = 0;
+            decimal result = 0;
 
-            if (operacao == "+")
+            if (operation == "+")
             {
-                resultado = primeiroAlgarismoEmDecimal + segundoAlgarismoEmDecimal;
+                result = firstDigitInDecimal + secondDigitInDecimal;
 
             }
-            else if (operacao == "-")
+            else if (operation == "-")
             {
-                resultado = primeiroAlgarismoEmDecimal - segundoAlgarismoEmDecimal;
+                result = firstDigitInDecimal - secondDigitInDecimal;
             }
-            else if (operacao == "*")
+            else if (operation == "*")
             {
-                resultado = primeiroAlgarismoEmDecimal * segundoAlgarismoEmDecimal;
+                result = firstDigitInDecimal * secondDigitInDecimal;
             }
-            else if (operacao == "/")
+            else if (operation == "/")
             {
-                resultado = primeiroAlgarismoEmDecimal / segundoAlgarismoEmDecimal;
+                result = firstDigitInDecimal / secondDigitInDecimal;
             }
             else
             {
-                Console.WriteLine("Operação errada!");
+                Console.WriteLine("Wrong operation! (Operação errada!)");
             }
 
-            Console.WriteLine("O resultado foi: " + resultado);
+            Console.WriteLine("O resultado foi: " + result);
             Console.WriteLine();
-            decimal div = primeiroAlgarismoEmDecimal / segundoAlgarismoEmDecimal;
-            decimal resto = primeiroAlgarismoEmDecimal % segundoAlgarismoEmDecimal;
+            decimal div = firstDigitInDecimal / secondDigitInDecimal;
+            decimal resto = firstDigitInDecimal % secondDigitInDecimal;
             Console.WriteLine("O resto é = " + resto);
             Console.WriteLine();
-            if (resultado % 2 == 0)
-                Console.WriteLine("Logo é PAR!");
+            if (result % 2 == 0)
+                Console.WriteLine("So it's par (Logo é PAR)");
             else
-                Console.WriteLine("Logo é íMPAR!");
-
-
-
-            //
-            //if(numero == "1")
-            //{
-            //    Console.WriteLine("O número digitado foi igual a 1");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("ERRRRRRRRRRROOOU");
-            //}
-
+                Console.WriteLine("So it's odd (Logo é íMPAR)");
 
             Console.ReadKey();
         }
