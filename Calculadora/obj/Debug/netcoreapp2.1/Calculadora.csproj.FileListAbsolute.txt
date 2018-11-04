@@ -1,0 +1,10 @@
+D:\Projetos\Calculadora\Calculadora\bin\Debug\netcoreapp2.1\Calculadora.deps.json
+D:\Projetos\Calculadora\Calculadora\bin\Debug\netcoreapp2.1\Calculadora.runtimeconfig.json
+D:\Projetos\Calculadora\Calculadora\bin\Debug\netcoreapp2.1\Calculadora.runtimeconfig.dev.json
+D:\Projetos\Calculadora\Calculadora\bin\Debug\netcoreapp2.1\Calculadora.dll
+D:\Projetos\Calculadora\Calculadora\bin\Debug\netcoreapp2.1\Calculadora.pdb
+D:\Projetos\Calculadora\Calculadora\obj\Debug\netcoreapp2.1\Calculadora.csproj.CoreCompileInputs.cache
+D:\Projetos\Calculadora\Calculadora\obj\Debug\netcoreapp2.1\Calculadora.AssemblyInfoInputs.cache
+D:\Projetos\Calculadora\Calculadora\obj\Debug\netcoreapp2.1\Calculadora.AssemblyInfo.cs
+D:\Projetos\Calculadora\Calculadora\obj\Debug\netcoreapp2.1\Calculadora.dll
+D:\Projetos\Calculadora\Calculadora\obj\Debug\netcoreapp2.1\Calculadora.pdb
