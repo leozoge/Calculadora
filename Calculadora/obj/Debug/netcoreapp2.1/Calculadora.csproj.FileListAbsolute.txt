@@ -8,3 +8,4 @@ D:\Projetos\Calculadora\Calculadora\obj\Debug\netcoreapp2.1\Calculadora.Assembly
 D:\Projetos\Calculadora\Calculadora\obj\Debug\netcoreapp2.1\Calculadora.AssemblyInfo.cs
 D:\Projetos\Calculadora\Calculadora\obj\Debug\netcoreapp2.1\Calculadora.dll
 D:\Projetos\Calculadora\Calculadora\obj\Debug\netcoreapp2.1\Calculadora.pdb
+D:\Projetos\Calculadora\Calculadora\obj\Debug\netcoreapp2.1\Calculadora.csprojAssemblyReference.cache
